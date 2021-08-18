@@ -1,9 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import splashImage from '../public/madebymygf.png'
 
 const Home: NextPage = () => {
   return (
@@ -21,7 +19,7 @@ const Home: NextPage = () => {
 
         <h1>Naufal Fikri</h1>
         <p>Hello there,</p>
-        <p>I'm Naufal. Melbourne based computer science educator, software engineer, and automation hobbyist.</p>
+        <p>I am Naufal. Melbourne based computer science educator, software engineer, and automation hobbyist.</p>
         <p>I am a software engineer at InGenious AI. Formerly a teaching and research assistant University of Melbourne.</p>
         <p>Majority of the site is under renovation! It may be a little less friendly for the mobile friends, sorry about that.</p>
       
