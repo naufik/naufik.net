@@ -11,3 +11,8 @@ Angular especially is getting out of hand in terms of difficulty and speed of up
 Follows regular NextJS conventions.
 
 TODO: add where the blog and projects file is...
+
+## TODOs
+
+- Move content from https://naufik.net to this repo. Including images and project pages (S3 bucket)
+- Github actions for CI/CD, I'm assuming we will use FTP for this

@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <p>I am a software engineer at InGenious AI. Formerly a teaching and research assistant University of Melbourne.</p>
         <p>Majority of the site is under renovation! It may be a little less friendly for the mobile friends, sorry about that.</p>
       
-        <span>(links here ty)</span>
+        <span>((links here ty))</span>
       </main>
 
       <footer className={styles.footer}>
