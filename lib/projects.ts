@@ -2,14 +2,13 @@ import Path from 'path';
 import File from 'fs';
 import Matter from 'gray-matter';
 
-const ENTRIES_REGEX = /\.mdx?$/gi;
+const ENTRIES_REGEX = /\.md$/gi;
 const projectFolder = Path.join(process.cwd(), 'data', 'projects');
 
 export const getAllProjectIds = () => {
   return File.readdirSync(projectFolder)
-    .filter(filename => ENTRIES_REGEX.test(filename))
+    .filter(filename => new RegExp(ENTRIES_REGEX).test(filename))
     .map(filename => filename.replace(ENTRIES_REGEX, ''));
-
 }
 
 export const getProjectPageById = (projectId: string) => {
