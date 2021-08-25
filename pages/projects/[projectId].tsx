@@ -1,24 +1,29 @@
 import type { NextPage, GetStaticPaths, GetStaticProps } from "next";
 import { getAllProjectIds, getProjectPageById } from "../../lib/projects";
 import { ParsedUrlQuery } from "querystring";
+import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
+import { serialize } from "next-mdx-remote/serialize";
 
 interface ProjectParams extends ParsedUrlQuery {
   projectId: string;
 }
 
-interface ProjectPageErrorProps {
-  error: string;
-}
-
-interface ProjectPageLoadProps {
+interface ProjectPageProps {
   meta: any;
-  content: string;
+  content: MDXRemoteSerializeResult<any>;
 }
-
-type ProjectPageProps = ProjectPageLoadProps | ProjectPageErrorProps;
 
 const ProjectPage: NextPage<ProjectPageProps> = (props) => {
-  return <div>{'meta' in props ? props.content : props.error}</div>;
+  return (
+    <div>
+      <a href="/projects">Back to projects</a>
+      <main>
+        <div className="projectItem">
+          <MDXRemote {...props.content} />
+        </div>
+      </main>
+    </div>
+  );
 };
 
 export const getStaticPaths: GetStaticPaths<ProjectParams> = async () => {
@@ -48,7 +53,7 @@ export const getStaticProps: GetStaticProps<any, ProjectParams> = async (
   return {
     props: {
       meta,
-      content,
+      content: await serialize(content),
     },
   };
 };
