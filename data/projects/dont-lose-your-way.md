@@ -1,5 +1,8 @@
 # Don't Lose Your Way
 
+![](/media/projects/dont-lose-your-way/dlyw-maps.jpg)
+![](/media/projects/dont-lose-your-way/dlyw-login.jpg)
+
 Don't Lose Your Way (DLYW, for short) is an Android application targeted to elders that may require assistance in navigating from point A to point B. The application is rich of accessibility features, such as AR navigation to help navigate Elders where to go and a carer-on-demand service to allow a registered loved-one assist in navigating through voice or text chat.
 
 This is originally a capstone project for the subject IT Project in University of Melbourne. Done by team "We'll Figure it Out":
@@ -9,6 +12,10 @@ This is originally a capstone project for the subject IT Project in University o
 - Nicola Halim
 - Samuel Tumewa
 - Surviantoro Ilham
+
+## Tech Stack
+
+![](/media/projects/dont-lose-your-way/wfio-stack.png)
 
 ## My Role
 
