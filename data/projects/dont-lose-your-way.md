@@ -1,3 +1,11 @@
+---
+year: 2019
+tags:
+    - Capstone
+    - University
+    - Typescript
+    - Full Stack Mobile App
+---
 # Don't Lose Your Way
 
 ![](/media/projects/dont-lose-your-way/dlyw-maps.jpg)

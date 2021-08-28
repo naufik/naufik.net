@@ -1,3 +1,10 @@
+---
+year: 2020
+tags:
+    - AWS Lambda
+    - Web Service
+    - IoT
+---
 # PTV Departure Paperboard
 
 The PTV departure paperboard is a personal IoT project to create a bus departure board at home, displayed on an ePaper screen. It is written in TypeScript and utilizes the Public Transport Victoria API to obtain departure data, while being hosted online using AWS Lambda and API Gateway.

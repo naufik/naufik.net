@@ -1,3 +1,10 @@
+---
+year: 2017
+tags:
+    - Java
+    - University
+    - Game Development
+---
 # Shadow Blocks
 
 This was one of the many assignments I have done in university, for the subject Object Oriented Software Development. The goal of the assignment is to create a clone 'Sokoban' game with an informal competition to extend the game as creative as possible. This project won first place in the creativity competition! 
