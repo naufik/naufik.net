@@ -10,6 +10,7 @@
 
 .splashImg {
   width: 100%;
+  max-width: 300px;
   object-fit: scale-down;
 }
 

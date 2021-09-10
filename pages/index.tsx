@@ -35,7 +35,7 @@ const Home: NextPage = () => {
                 <strong><a href="https://ingenious.ai">InGenious AI</a></strong>, Full Stack Software Engineer (2020-): <br/>Building a platform
                 to craft engaging and feature-rich chatbots.
               </li>
-              <li><strong><a href="https://unimelb.edu.au">University of Melbourne</a></strong>, Teaching Assistant (2018-2020)</li>
+              <li><strong><a href="https://cis.unimelb.edu.au">University of Melbourne</a></strong>, Teaching Assistant (2018-2020)</li>
               <li>University of Melbourne, Research Assistant (2019): <br/>Published <a href="http://renata.borovica-gajic.com/data/2020_adc.pdf">Function Interpolation for Learned Index Structures</a>.</li>
             </ul>
           </p>
