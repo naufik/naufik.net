@@ -3,5 +3,6 @@
     nativeBuildInputs = with pkgs; [
       nodejs
       nodePackages.npm
+      nodePackages.typescript-language-server
     ];
   }
