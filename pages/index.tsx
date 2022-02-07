@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.top}></div>
 
-        <div>
+        <div className={styles.imageContainer}>
           <img className={styles.splashImg} src="/madebymygf.png" />
         </div>
 
@@ -23,11 +23,11 @@ const Home: NextPage = () => {
           </h1>
           <p>Hello there,</p>
           <p>
-            I'm a software engineer and computer science educator based in
-            Melbourne, Australia. This website will soon be a log for
-            interesting things I do, when I get to do them.
+            I'm a software engineer and former computer science educator based in Melbourne, Australia. I don't specialize in anything, but I enjoy works around back-end development, dev-ops, and automation. 
           </p>
-
+          <p>
+            This website is going yet another facelift as I move from Angular to NextJS. Please bear with me.
+          </p>
           <p>
             Work history:
             <ul>
@@ -37,24 +37,23 @@ const Home: NextPage = () => {
               </li>
               <li><strong><a href="https://cis.unimelb.edu.au">University of Melbourne</a></strong>, Teaching Assistant (2018-2020)</li>
               <li>University of Melbourne, Research Assistant (2019): <br/>Published <a href="http://renata.borovica-gajic.com/data/2020_adc.pdf">Function Interpolation for Learned Index Structures</a>.</li>
+              <li><strong><a href="https://nodeflux.io">Nodeflux</a></strong>, Software Engineer Intern (2018): <br/>API development for internal use for license managing software licenses.</li> 
             </ul>
           </p>
 
-          <span>
-            <Link href="/resume.pdf">Full Resume (PDF)</Link>
-            {" . "}
-            <Link href="/blog">Blog</Link>
+          <span className={styles.navTemp}>
+            <Link href="/resume.pdf">Resume (PDF)</Link>
             {" | "}
             <a href="https://github.com/naufik">GitHub</a>
             {" . "}
             <a href="https://linkedin.com/in/naufik">LinkedIn</a>
           </span>
         </div>
+        <div/>
+        <footer className={styles.footer}>
+          <p>(c) Naufal Fikri Setiawan / 2016-2021</p>
+        </footer>
       </main>
-
-      <footer className={styles.footer}>
-        <p>(c) Naufal Fikri Setiawan / 2016-2021</p>
-      </footer>
     </div>
   );
 };

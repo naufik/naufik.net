@@ -1,7 +1,9 @@
 .main {
   font-size: 14pt;
   display: grid;
-  grid-template-columns: 2fr 5fr;
+  grid-template-columns: 2fr 3fr;
+  max-width: 1300px;
+  margin: auto;
 }
 
 .main li {
@@ -10,7 +12,6 @@
 
 .splashImg {
   width: 100%;
-  max-width: 300px;
   object-fit: scale-down;
 }
 
@@ -20,8 +21,27 @@
 }
 
 .pronouns {
+  visibility: hidden;
   font-weight: 400;
   margin-left: 4px;
   font-size: 20pt;
   color: gray;
+}
+
+.main a {
+  color: navy;
+  text-decoration: none;
+}
+
+.main a:hover {
+  background: azure;
+  text-decoration: none;
+}
+
+.main a:visited {
+  text-decoration: none;
+}
+
+.navTemp > a {
+  font-weight: bold;
 }
