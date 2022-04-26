@@ -16,20 +16,19 @@ const Home: NextPage = () => {
         <div className={styles.imageContainer}>
           <img className={styles.splashImg} src="/madebymygf.png" />
         </div>
-
         <div className={styles.splashContent}>
           <h1>
             Naufal Fikri
           </h1>
           <p>Hello there,</p>
           <p>
-            I&apos;m a software engineer and former computer science educator based in Melbourne, Australia. I don&apos;t specialize in anything, but I enjoy works around back-end development, dev-ops, and automation. 
+            I&apos;m a software engineer and former computer science educator based in Melbourne, Australia. I don&apos;t have an official specialization, but I enjoy works around back-end development, dev-ops, and automation. 
           </p>
           <p>
-            This website is going yet another facelift (moving from Angular to NextJS). Please bear with me.
+            This website is going yet another facelift. Please bear with me.
           </p>
           <p>
-            Work history:
+            <span className={styles.section}>Work history</span>:
             <ul>
               <li>
                 <strong><a href="https://ingenious.ai">InGenious AI</a></strong>, Full Stack Software Engineer (2020-): <br/>Building a platform
@@ -51,7 +50,7 @@ const Home: NextPage = () => {
         </div>
         <div/>
         <footer className={styles.footer}>
-          <p>(c) Naufal Fikri Setiawan / 2016-2022</p>
+          <p>&copy; Naufal Fikri Setiawan 2016-2022</p>
         </footer>
       </main>
     </div>

@@ -38,6 +38,10 @@
   text-decoration: none;
 }
 
+.section {
+  font-weight: bold;
+}
+
 .main a:visited {
   text-decoration: none;
 }
