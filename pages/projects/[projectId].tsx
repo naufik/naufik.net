@@ -3,6 +3,7 @@ import { getAllProjectIds, getProjectPageById } from "../../lib/projects";
 import { ParsedUrlQuery } from "querystring";
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
+import Link from "next/link";
 
 interface ProjectParams extends ParsedUrlQuery {
   projectId: string;
@@ -16,7 +17,7 @@ interface ProjectPageProps {
 const ProjectPage: NextPage<ProjectPageProps> = (props) => {
   return (
     <div>
-      <a href="/projects">Back to projects</a>
+      <Link href="/projects">Back to projects</Link>
       <main>
         <div className="projectItem">
           <MDXRemote {...props.content} />

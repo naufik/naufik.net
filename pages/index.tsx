@@ -19,14 +19,14 @@ const Home: NextPage = () => {
 
         <div className={styles.splashContent}>
           <h1>
-            Naufal Fikri <span className={styles.pronouns}>he/him</span>
+            Naufal Fikri
           </h1>
           <p>Hello there,</p>
           <p>
-            I'm a software engineer and former computer science educator based in Melbourne, Australia. I don't specialize in anything, but I enjoy works around back-end development, dev-ops, and automation. 
+            I&apos;m a software engineer and former computer science educator based in Melbourne, Australia. I don&apos;t specialize in anything, but I enjoy works around back-end development, dev-ops, and automation. 
           </p>
           <p>
-            This website is going yet another facelift as I move from Angular to NextJS. Please bear with me.
+            This website is going yet another facelift (moving from Angular to NextJS). Please bear with me.
           </p>
           <p>
             Work history:
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                 to craft engaging and feature-rich chatbots.
               </li>
               <li><strong><a href="https://cis.unimelb.edu.au">University of Melbourne</a></strong>, Teaching Assistant (2018-2020)</li>
-              <li>University of Melbourne, Research Assistant (2019): <br/>Published <a href="http://renata.borovica-gajic.com/data/2020_adc.pdf">Function Interpolation for Learned Index Structures</a>.</li>
+              <li><strong>University of Melbourne</strong>, Research Assistant (2019): <br/>Published <a href="http://renata.borovica-gajic.com/data/2020_adc.pdf">Function Interpolation for Learned Index Structures</a>.</li>
               <li><strong><a href="https://nodeflux.io">Nodeflux</a></strong>, Software Engineer Intern (2018): <br/>API development for internal use for license managing software licenses.</li> 
             </ul>
           </p>
@@ -45,13 +45,13 @@ const Home: NextPage = () => {
             <Link href="/resume.pdf">Resume (PDF)</Link>
             {" | "}
             <a href="https://github.com/naufik">GitHub</a>
-            {" . "}
+            {" | "}
             <a href="https://linkedin.com/in/naufik">LinkedIn</a>
           </span>
         </div>
         <div/>
         <footer className={styles.footer}>
-          <p>(c) Naufal Fikri Setiawan / 2016-2021</p>
+          <p>(c) Naufal Fikri Setiawan / 2016-2022</p>
         </footer>
       </main>
     </div>
