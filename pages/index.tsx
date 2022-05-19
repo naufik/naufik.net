@@ -9,7 +9,6 @@ const Home: NextPage = () => {
       <Head>
         <title>Naufal Fikri</title>
       </Head>
-
       <main className={styles.main}>
         <div className={styles.top}></div>
 
@@ -22,10 +21,7 @@ const Home: NextPage = () => {
           </h1>
           <p>Hello there,</p>
           <p>
-            I&apos;m a software engineer and former computer science educator based in Melbourne, Australia. I don&apos;t have an official specialization, but I enjoy works around back-end development, dev-ops, and automation. 
-          </p>
-          <p>
-            This website is going yet another facelift. Please bear with me.
+            I&apos;m a software engineer and former computer science educator based in Melbourne, Australia. I don&apos;t have a specialization, but I enjoy work around back-end development, dev-ops, and automation. 
           </p>
           <p>
             <span className={styles.section}>Work history</span>:
@@ -36,7 +32,7 @@ const Home: NextPage = () => {
               </li>
               <li><strong><a href="https://cis.unimelb.edu.au">University of Melbourne</a></strong>, Teaching Assistant (2018-2020)</li>
               <li><strong>University of Melbourne</strong>, Research Assistant (2019): <br/>Published <a href="http://renata.borovica-gajic.com/data/2020_adc.pdf">Function Interpolation for Learned Index Structures</a>.</li>
-              <li><strong><a href="https://nodeflux.io">Nodeflux</a></strong>, Software Engineer Intern (2018): <br/>API development for internal use for license managing software licenses.</li> 
+              <li><strong><a href="https://nodeflux.io">Nodeflux</a></strong>, Software Engineer Intern (2018).</li>
             </ul>
           </p>
 
