@@ -46,7 +46,7 @@ const Home: NextPage = () => {
         </div>
         <div/>
         <footer className={styles.footer}>
-          <p>&copy; Naufal Fikri Setiawan 2016-2022</p>
+          <p>&copy; Naufal Fikri Setiawan 2016-2023</p>
         </footer>
       </main>
     </div>
