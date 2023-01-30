@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <div className={styles.top}></div>
 
         <div className={styles.imageContainer}>
-          <img className={styles.splashImg} src="/madebymygf.png" />
+          <img className={styles.splashImg} src="/me.png" />
         </div>
         <div className={styles.splashContent}>
           <h1>
