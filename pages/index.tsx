@@ -9,12 +9,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Naufal Fikri</title>
       </Head>
-      <main className={styles.main}>
-        <div className={styles.top}></div>
-
-        <div className={styles.imageContainer}>
-          <img className={styles.splashImg} src="/me.png" />
-        </div>
+       <main className={styles.main}>
+         <div className={styles.imageContainer}>
+           <img className={styles.splashImg} src="/me.png" />
+         </div>
         <div className={styles.splashContent}>
           <h1>
             Naufal Fikri
@@ -35,7 +33,6 @@ const Home: NextPage = () => {
               <li><strong><a href="https://nodeflux.io">Nodeflux</a></strong>, Software Engineer Intern (2018).</li>
             </ul>
           </p>
-
           <span className={styles.navTemp}>
             <Link href="/resume.pdf">Resume (PDF)</Link>
             {" | "}
@@ -43,11 +40,10 @@ const Home: NextPage = () => {
             {" | "}
             <a href="https://linkedin.com/in/naufik">LinkedIn</a>
           </span>
-        </div>
-        <div/>
         <footer className={styles.footer}>
           <p>&copy; Naufal Fikri Setiawan 2016-2023</p>
         </footer>
+        </div>
       </main>
     </div>
   );
