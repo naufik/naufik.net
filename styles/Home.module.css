@@ -6,22 +6,22 @@
   gap: 40px;
 }
 
-  @media (max-width: 860px) {
-    .main {
-      flex-direction: column;
-    }
-
-    .imageContainer {
-      display: flex;
-
-      align-items: center;
-      justify-content: center;
-    }
-
-    .splashImg {
-      height: 400px;
-    }
+@media (max-width: 860px) {
+  .main {
+    flex-direction: column;
   }
+
+  .imageContainer {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .splashImg {
+    max-height: 400px;
+  }
+}
 
 .main li {
   margin-bottom: 6px;
@@ -69,4 +69,3 @@
 .splashContent {
   flex: 65%;
 }
-
