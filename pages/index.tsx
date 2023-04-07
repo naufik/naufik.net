@@ -18,9 +18,8 @@ const Home: NextPage = () => {
           <p>Hello there,</p>
           <p>
             I&apos;m a software engineer and former computer science educator
-            based in Melbourne, Australia. I don&apos;t have a specialization,
-            but I enjoy work around back-end development, dev-ops, and
-            automation.
+            based in Melbourne, Australia. Specialising in work around back-end
+            development, dev-ops, and automation.
           </p>
           <p>
             <span className={styles.section}>Work history</span>:
@@ -29,8 +28,11 @@ const Home: NextPage = () => {
                 <strong>
                   <a href="https://ingenious.ai">InGenious AI</a>
                 </strong>
-                , Full Stack Software Engineer (2020-): <br />
-                Building a platform to craft engaging and feature-rich chatbots.
+                , Senior Full Stack Software Engineer (2023-).
+              </li>
+              <li>
+                <strong>InGenious AI</strong>, Full Stack Software Engineer
+                (2020-2023).
               </li>
               <li>
                 <strong>
@@ -38,7 +40,7 @@ const Home: NextPage = () => {
                     University of Melbourne
                   </a>
                 </strong>
-                , Teaching Assistant (2018-2020)
+                , Teaching Assistant (2018-2020).
               </li>
               <li>
                 <strong>University of Melbourne</strong>, Research Assistant
@@ -58,7 +60,8 @@ const Home: NextPage = () => {
             </ul>
           </p>
           <span className={styles.navTemp}>
-            <Link href="/resume.pdf">Resume (PDF)</Link>
+            <Link href="/resume.pdf">Resume</Link>
+            <sup>PDF</sup>
             {" | "}
             <a href="https://github.com/naufik">GitHub</a>
             {" | "}
