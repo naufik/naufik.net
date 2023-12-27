@@ -5,4 +5,6 @@
       nodePackages.npm
       nodePackages.typescript-language-server
     ];
+
+    t = "hwello!";
   }
