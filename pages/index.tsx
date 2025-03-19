@@ -68,7 +68,7 @@ const Home: NextPage = () => {
             <a href="https://linkedin.com/in/naufik">LinkedIn</a>
           </span>
           <footer className={styles.footer}>
-            <p>&copy; Naufal Fikri Setiawan 2016-2023</p>
+            <p>&copy; Naufal Fikri Setiawan 2016-2025</p>
           </footer>
         </div>
       </main>
